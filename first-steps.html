@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="da">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Prøv en enkel balletbevægelse i dit eget tempo.">
+    <title>Prøv dine første trin – Sarahs Ballettips</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="menu.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header page-width">
+      <a class="brand" href="index.html" aria-label="Sarahs Ballettips – Forside">
+        <span class="brand-name">Sarahs Ballettips</span>
+        <span class="brand-description">Begynderguide<br>til ballet for voksne</span>
+      </a>
+
+      <nav class="desktop-navigation" aria-label="Hovednavigation">
+        <a href="before-class.html">Før din første time</a>
+        <a href="first-steps.html" aria-current="page">Prøv dine første trin</a>
+        <a href="after-class.html">Efter din første time</a>
+      </nav>
+
+      <button class="menu-open" type="button" aria-controls="mobile-menu" aria-expanded="false">
+        Menu
+      </button>
+    </header>
+
+    <dialog class="mobile-menu" id="mobile-menu" aria-label="Mobilnavigation">
+      <nav aria-label="Mobil navigation">
+        <button class="menu-close" type="button">Luk ×</button>
+        <ul>
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="before-class.html">Før din første time</a></li>
+          <li><a href="first-steps.html" aria-current="page">Prøv dine første trin</a></li>
+          <li><a href="after-class.html">Efter din første time</a></li>
+        </ul>
+      </nav>
+    </dialog>
+
+    <main class="first-steps-page">
+      <div class="page-width">
+        <header class="steps-heading">
+          <h1>Prøv dine første trin.</h1>
+          <p>Få en lille smagsprøve på ballet i dit eget tempo. Her kan du prøve en enkelt øvelse - men du behøver ikke øve hjemme før timen for at kunne deltage i din første time.</p>
+        </header>
+
+        <section class="steps-layout" aria-label="En enkel armbevægelse">
+          <div class="steps-main">
+            <section class="arm-exercise" aria-labelledby="exercise-title">
+              <h2 id="exercise-title">En enkel armbevægelse</h2>
+              <ol class="arm-steps">
+                <li>
+                  <h3><span class="step-number" aria-hidden="true">1. </span>Start med armene nede</h3>
+                  <p>Lad armene danne en blød oval foran kroppen med hænderne lidt foran hofterne.</p>
+                </li>
+                <li>
+                  <h3><span class="step-number" aria-hidden="true">2. </span>Løft armene foran dig</h3>
+                  <p>Løft langsomt armene foran kroppen til lidt under skulderhøjde. Bevar den runde form, som om du holder om en stor bold.</p>
+                </li>
+                <li>
+                  <h3><span class="step-number" aria-hidden="true">3. </span>Åben armene ud til siderne</h3>
+                  <p>Åbn langsomt armene ud til siderne med let rundede albuer. Sænk dem roligt tilbage til udgangspunktet.</p>
+                </li>
+              </ol>
+            </section>
+
+            <section class="reflection-section" aria-labelledby="reflection-title">
+              <h2 id="reflection-title">Hvordan føltes det?</h2>
+              <p>Måske føltes bevægelsen rar, uvant eller lidt af begge dele.</p>
+              <p>Du har nu prøvet en lille del af ballet.</p>
+              <p>Du behøver ikke mestre den, før du møder op til undervisning.</p>
+            </section>
+
+            <a class="primary-link steps-primary-link" href="before-class.html">Før din første time</a>
+
+            <a class="after-class-link" href="after-class.html">
+              <span>Har du været afsted?</span>
+              <span><span class="after-class-label">Efter din første time</span> <span class="after-class-arrow" aria-hidden="true">⟶</span></span>
+            </a>
+          </div>
+
+          <aside class="steps-side" aria-label="Før du begynder og video">
+            <section class="preparation-card" aria-labelledby="preparation-title">
+              <h2 id="preparation-title">Før du begynder</h2>
+              <p>Find et sted, hvor du har plads til at bevæge armene frit. Du kan prøve bevægelsen stående eller siddende på en stabil stol. Tag det roligt - du skal bare være nysgerrig på bevægelsen.</p>
+            </section>
+
+            <div class="video-frame" id="ballet-video">
+              <iframe
+                src="https://www.youtube-nocookie.com/embed/S5HwZJQ8NuA?rel=0"
+                title="Ballettens armpositioner – The Royal Ballet (på engelsk)"
+                loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+
+            <div class="video-details">
+              <a class="youtube-link" href="https://www.youtube.com/watch?v=S5HwZJQ8NuA" target="_blank" rel="noopener">
+                Se på YouTube <span aria-hidden="true">↗</span>
+              </a>
+              <p>The Royal Ballet · YouTube · på engelsk</p>
+            </div>
+          </aside>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer page-width">
+      <a class="brand" href="index.html" aria-label="Sarahs Ballettips – Forside">
+        <span class="brand-name">Sarahs Ballettips</span>
+        <span class="brand-description">Begynderguide<br>til ballet for voksne</span>
+      </a>
+    </footer>
+  </body>
+</html>
